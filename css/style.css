@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+/* 
+	Header
+*/
+
+.header .nav {
+	display: flex;
+	box-shadow: 0 0 10px #00acd7;
+}
+
+.header .nav .site-logo {
+	width: 12.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .nav .site-logo .logo {
+	height: 30px;
+	padding: 10px 10px; 
+}
+
+.header .nav .navigation {
+	width: 37.5%;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .navigation .nav-item {
+	padding: 5px 10px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.header .navigation .nav-item.active,
+.header .navigation .nav-item:hover {
+	background-color: #00acd7;
+}
+
+.header .nav-item .nav-link {
+	color: #00acd7;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.header .navigation .nav-item.active .nav-link {
+	color: #fff;
+}
+
+.header .navigation .nav-item:hover .nav-link {
+	color: #fff;
+}
+
+.header .nav .search-container {
+	width: 37.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .search-container .search {
+	width:14px;
+	z-index: 3;
+}
+
+.header .search-container .search-input {
+	padding: 2px 10px;
+	padding-left: 22px;
+	border-radius: 10px;
+	outline: none;
+	background-color: #f6f6f6;
+	border: 1px solid transparent;
+	margin-left: -20px;	
+}
+
+.header .nav .account {
+	width: 12.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .account .avatar {
+	width: 40px;
+}
