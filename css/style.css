@@ -149,3 +149,155 @@
 .dropdown-list .dropdown-item:hover .dropdown-link {
 	color: #fff;
 }
+
+/* 
+  Layout
+*/
+
+.container {
+  width: 95%;
+  margin: 30px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .row .col-1 {
+  width: 8.3%;
+}
+
+.container .row .col-2 {
+  width: 16.7%;
+}
+
+.container .row .col-3 {
+  width: 25%;
+}
+
+.container .row .col-4 {
+  width: 33.3%;
+}
+
+.container .row .col-5 {
+  width: 41.7%;
+}
+
+.container .row .col-6 {
+  width: 50%;
+}
+
+/* 
+  Main
+*/
+
+.card {
+  box-shadow: 0 0 7px #00acd7;
+  margin-bottom: 30px;
+}
+
+.card .thumbnail .thumbnail-image {
+  max-width: 100%;
+  width: 100%;
+}
+
+.card .card-body {
+  padding: 0 15px;
+}
+
+.card .card-body .avatar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+}
+
+.card .card-body .avatar-image {
+  max-width: 40px;
+  width: 100%;
+  margin-top: -30px;
+  border-radius: 50%;
+}
+
+.card .card-body .tag {
+  color: #00acd7;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.card .card-body .title {
+  color: #212125;
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.card .card-body .content {
+  color: #585858;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.card .card-body .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.card .more .read-more {
+  color: #00acd7;
+  text-decoration: none;
+}
+
+/*
+  Big Card
+*/
+
+.big-card {
+  margin: 0 20px;
+  box-shadow: 0 0 10px #00acd7;
+}
+
+.big-card .thumbnail .thumbnail-image {
+  max-width: 100%;
+  width: 100%;
+}
+
+.big-card .card-body {
+  padding: 30px;
+}
+
+.big-card .card-body .tag {
+  color:#00acd7;
+  font-weight: 600;
+  padding: 5px 0;
+} 
+
+.big-card .card-body .title {
+  color: #212125;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.big-card .card-body .time {
+  font-size: 14px;
+  color: #484848;
+  padding: 5px 0;
+}
+
+.big-card .content p {
+  color: #585858;
+  text-indent: 15px;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.big-card .content h1 {
+  font-size: 18px;
+}
